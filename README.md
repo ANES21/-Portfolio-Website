@@ -30,8 +30,8 @@ Welcome to the repository of my personal portfolio website! This site showcases 
 A fast, responsive Islamic web platform delivering daily essential utilities wrapped in a modern Glassmorphism UI.
 * **Key Features:** Dynamic prayer times via Geolocation API, Uthmani script Quran display with audio recitation, and Taharah guides.
 * **Tech:** HTML5, CSS3, JavaScript (ES6+), Aladhan API, Al Quran Cloud API.
-* 🌐 [Live Demo](https://zad-al-muslim-two.vercel.app/) | 🔗 [Source Code](https://github.com/ANES21/Zad-Al-Muslim)
-
+* 🌐 [Live Demo](https://zad-al-muslim-two.vercel.app/) | 🔗 [Source Code](https://github.com/ANES21/Zad-Al-Muslim) 
+* 📥 [Download APK](apk/Zad.apk)
 ---
 
 ### 2. 🕌 Quran Association Management System (منظومة إدارة جمعية تحفيظ القرآن الكريم)
