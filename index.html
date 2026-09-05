@@ -12,127 +12,142 @@
 <body>
 
     <header>
-        <div class="li">
+        <div class="header-container">
             <img src="ingm/Copilot_20250710_144903.png" alt="Mokhtari Anes Abderrahmane Logo" width="94" height="72">
-            <p>MOKHTARI ANES ABDERRAHMANE</p>
+            <p class="brand-title">MOKHTARI ANES ABDERRAHMANE</p>
             <nav aria-label="Social and Contact Links">
-                <a href="https://www.linkedin.com/in/mokhtari-anes-abderrahmane-6282872a9/?isSelfProfile=true" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/anes-abdo-6282872a9/?skipRedirect=true" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 <a href="https://github.com/ANES21" target="_blank" rel="noopener noreferrer">GitHub</a>
                 <a href="mailto:anesmokhtar88@gmail.com">Email</a>
+                <a href="pdf/Mokhtari_Anes_Abderrahmane_CV.pdf" download="Mokhtari_Anes_Abderrahmane_CV.pdf" class="btn btn-apk">📥 Download CV</a>
             </nav>
         </div>
     </header>
 
-    <main class="ma">
-        <section class="bio">
-         <p> AI Master’s Student | Full-Stack Web Developer|</p>  
-      <p>  Node.js •HTML•  Express.js • MySQL • Tailwind CSS • Python•uml</p>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-container">
+            <div class="bio">
+                <p>Student at Ibn Khaldoun Tiaret University</p>
+                <p>Android | Java | Backend Engineer | Node.js (Web)</p>
+            </div>
+            <div class="profile-img-wrap">
+                <img src="ingm/photo_2026-05-31_17-58-23.jpg" alt="Profile photo of Mokhtari Anes Abderrahmane" width="304" height="304">
+            </div> 
+        </section> 
 
-
+        <!-- Tech Stack Icons -->
+        <section class="tech-stack" aria-label="Technologies and Languages">
+            <img class="lang-icon" src="iicon laneg/c .png" alt="C Language">
+            <img class="lang-icon" src="iicon laneg/c-.png" alt="C++">
+            <img class="lang-icon" src="iicon laneg/css.png" alt="CSS3">
+            <img class="lang-icon" src="iicon laneg/html-5.png" alt="HTML5">
+            <img class="lang-icon" src="iicon laneg/java-script.png" alt="JavaScript">
+            <img class="lang-icon" src="iicon laneg/java.png" alt="Java">
+            <img class="lang-icon" src="iicon laneg/mysql.png" alt="MySQL"> 
+            <img class="lang-icon" src="iicon laneg/python.png" alt="Python"> 
+            <img class="lang-icon" src="iicon laneg/node-js.png" alt="Node.js">
+            <img class="lang-icon" src="iicon laneg/scipi.png" alt="SciPy">
+            <img class="lang-icon" src="iicon laneg/MATPLOTLIB.png" alt="Matplotlib">
+            <img class="lang-icon" src="iicon laneg/NumPy.png" alt="NumPy">
         </section>
-        <div class="ilm">
-            <img src="ingm/photo_2026-05-31_17-58-23.jpg" alt="Profile photo of Mokhtari Anes Abderrahmane" width="304" height="304">
-        </div> 
-    </main> 
 
-    <!-- Tech Stack Icons -->
-    <section class="lagen" aria-label="Technologies and Languages">
-        <img class="lang-icon" src="iicon laneg/c .png" alt="C Language">
-        <img class="lang-icon" src="iicon laneg/c-.png" alt="C++">
-        <img class="lang-icon" src="iicon laneg/css.png" alt="CSS3">
-        <img class="lang-icon" src="iicon laneg/html-5.png" alt="HTML5">
-        <img class="lang-icon" src="iicon laneg/java-script.png" alt="JavaScript">
-        <img class="lang-icon" src="iicon laneg/java.png" alt="Java">
-        <img class="lang-icon" src="iicon laneg/mysql.png" alt="MySQL"> 
-        <img class="lang-icon" src="iicon laneg/python.png" alt="Python"> 
-        <img class="lang-icon" src="iicon laneg/node-js.png" alt="Node.js">
-        <img class="lang-icon" src="iicon laneg/scipi.png" alt="SciPy">
-        <img class="lang-icon" src="iicon laneg/MATPLOTLIB.png" alt="Matplotlib">
-        <img class="lang-icon" src="iicon laneg/NumPy.png" alt="NumPy">
-    </section>
+        <!-- Projects Section -->
+        <section class="projects-section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-container">
 
-    <!-- Projects Section -->
-    <section class="poj">
-        <h2 class="section-title">Featured Projects</h2>
-        <div class="projects-container">
+                <!-- Project 1: Zad Al-Muslim -->
+                <article class="project-card rtl" lang="ar" dir="rtl">
+                    <h3>زاد المسلم - Zad Al-Muslim 📖🕌</h3>
+                    <p>منصة ويب إسلامية سريعة ومتجاوبة تقدم أهم الخدمات التي يحتاجها المسلم يومياً بتجربة استخدام (UX) بسيطة وجذابة.</p>
 
-            <!-- Project 1: Zad Al-Muslim -->
-            <article class="project-card" lang="ar" dir="rtl">
-                <h3>زاد المسلم - Zad Al-Muslim 📖🕌</h3>
-                <p>منصة ويب إسلامية سريعة ومتجاوبة تقدم أهم الخدمات التي يحتاجها المسلم يومياً بتجربة استخدام (UX) بسيطة وجذابة.</p>
+                    <h4>المميزات الرئيسية:</h4>
+                    <ul>
+                        <li>🕌 أوقات الصلاة الديناميكية: حساب تلقائي للمواقيت بناءً على الموقع الجغرافي (Geolocation API).</li>
+                        <li>📖 القرآن الكريم: عرض السور بالرسم العثماني، بحث سريع، واستماع للتلاوات.</li>
+                        <li>💧 دليل أحكام الطهارة: بطاقات تعليمية لصفة الوضوء، الغسل، والتيمم.</li>
+                        <li>📱 تصميم متجاوب يعتمد على أسلوب Glassmorphism الحديث.</li>
+                    </ul>
 
-                <h4>المميزات الرئيسية:</h4>
-                <ul>
-                    <li>🕌 أوقات الصلاة الديناميكية: حساب تلقائي للمواقيت بناءً على الموقع الجغرافي (Geolocation API).</li>
-                    <li>📖 القرآن الكريم: عرض السور بالرسم العثماني، بحث سريع، واستماع للتلاوات.</li>
-                    <li>💧 دليل أحكام الطهارة: بطاقات تعليمية لصفة الوضوء، الغسل، والتيمم.</li>
-                    <li>📱 تصميم متجاوب يعتمد على أسلوب Glassmorphism الحديث.</li>
-                </ul>
+                    <h4>🛠️ التقنيات المستخدمة:</h4>
+                    <p class="tech-details" dir="ltr">HTML5, CSS3, JavaScript (ES6+), Aladhan API, Al Quran Cloud API, Git & GitHub</p>
+                    
+                    <h4>📱 مواصفات تطبيق الأندرويد:</h4>
+                    <ul class="android-specs" dir="rtl">
+                        <li>Java + XML (Android Views التقليدية، لا Jetpack Compose)</li>
+                        <li>Retrofit2 + Gson لطلبات الشبكة</li>
+                        <li>FusedLocationProviderClient (Google Play Services) لتحديد الموقع</li>
+                        <li>MediaPlayer لتشغيل التلاوات الصوتية</li>
+                        <li>Material Components (BottomNavigationView, SwipeRefreshLayout)</li>
+                        <li>دعم كامل RTL</li>
+                    </ul>
 
-                <h4>🛠️ التقنيات المستخدمة:</h4>
-                <p><span dir="ltr">HTML5, CSS3, JavaScript (ES6+), Aladhan API, Al Quran Cloud API, Git & GitHub</span></p>
-                 <pre>Java + XML (Android Views التقليدية، لا Jetpack Compose)
-Retrofit2 + Gson لطلبات الشبكة
-FusedLocationProviderClient (Google Play Services) لتحديد الموقع
-MediaPlayer لتشغيل التلاوات الصوتية
-Material Components (BottomNavigationView, SwipeRefreshLayout)
-دعم كامل RTL
-</pre>
-                <div class="project-links" dir="ltr">
-                    <a href="https://zad-al-muslim-two.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn">Live Demo</a>
-                    <a href="https://github.com/ANES21/Zad-Al-Muslim" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Source Code website</a>
-                    <a href="https://github.com/ANES21/Zad-Al-Muslim-android-" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Source Code app Android </a>
-                                    <a href="apk/Zad.apk" download="Zad-Al-Muslim.apk" class="btn btn-apk">📥 Download APK</a>
+                    <div class="project-links" dir="ltr">
+                        <a href="https://zad-al-muslim-two.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn">Live Demo</a>
+                        <a href="https://github.com/ANES21/Zad-Al-Muslim" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Source Code website</a>
+                        <a href="https://github.com/ANES21/Zad-Al-Muslim-android-" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Source Code app Android</a>
+                        <a href="apk/Zad.apk" download="Zad-Al-Muslim.apk" class="btn btn-apk">📥 Download APK</a>
+                    </div>
+                </article>
 
+                <!-- Project 2: Quran Association System -->
+                <article class="project-card rtl" lang="ar" dir="rtl">
+                    <h3>منظومة إدارة جمعية تحفيظ القرآن الكريم (مكتب ملاكو) 🕌</h3>
+                    <p>منظومة برمجية متكاملة ومحمية تم تطويرها خصيصاً لإدارة الحلقات القرآنية والأفواج التربوية لجمعية المعالي للعلوم والتربية.</p>
+
+                    <h4>💡 أبرز الميزات:</h4>
+                    <ul>
+                        <li>إدارة الحلقات والأفواج وتنظيم المجموعات التربوية وتوزيع الطلاب.</li>
+                        <li>المتابعة اليومية للأوراد والتسجيل والترقيات المستمرة.</li>
+                        <li>الإدارة المالية، تقييد الاشتراكات، وضبط المصاريف لحظياً.</li>
+                        <li>أمن وحماية البيانات بتشفير الجلسات وإدارة الصلاحيات (JWT).</li>
+                    </ul>
+
+                    <h4>🛠️ التقنيات المستخدمة:</h4>
+                    <p><span dir="ltr">HTML5, Tailwind CSS, JavaScript (Async/Fetch), Node.js, Express.js, Supabase (PostgreSQL)</span></p>
+
+                    <div class="project-links" dir="ltr">
+                        <a href="https://github.com/ANES21/WEB-For-the-Quran-Memorization-Society" target="_blank" rel="noopener noreferrer" class="btn">View Project</a>
+                    </div>
+                </article>
+
+                <!-- Project 3: Bookanes App -->
+                <article class="project-card ltr" lang="en" dir="ltr">
+                    <h3>Bookanes App 📚</h3>
+                    <p>An Android application serving as a personal digital library and versatile note-taking tool built with the Model-View-Adapter (MVA) pattern.</p>
+
+                    <h4>💡 Key Features:</h4>
+                    <ul>
+                        <li>Visual Catalog with 2-column grid layout using RecyclerView.</li>
+                        <li>Interactive Note-Taking with custom dialogs and instant deletion capabilities.</li>
+                        <li>Seamless Bottom Navigation across Library, Notes, and Profile sections.</li>
+                    </ul>
+
+                    <h4>🛠️ Tech Stack:</h4>
+                    <p>Java Backend, Android SDK, XML Fundamentals, SQLite Database</p>
+
+                    <div class="project-links">
+                        <a href="apk/app-debug.apk" download="BookanesApp.apk" class="btn btn-apk">📥 Download APK</a>
+                        <a href="https://github.com/ANES21/BOOK-ANES" target="_blank" rel="noopener noreferrer" class="btn btn-outline">GitHub Repository</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- University Section -->
+        <section class="university-section">
+            <div class="university-card">
+                <div class="university-img">
+                    <img src="ingm/download.jpeg" alt="Ibn Khaldoun Tiaret University Logo" width="60" height="60">
                 </div>
-            </article>
-
-            <!-- Project 2: Quran Association System -->
-            <article class="project-card" lang="ar" dir="rtl">
-                <h3>منظومة إدارة جمعية تحفيظ القرآن الكريم (مكتب ملاكو) 🕌</h3>
-                <p>منظومة برمجية متكاملة ومحمية تم تطويرها خصيصاً لإدارة الحلقات القرآنية والأفواج التربوية لجمعية المعالي للعلوم والتربية.</p>
-
-                <h4>💡 أبرز الميزات:</h4>
-                <ul>
-                    <li>إدارة الحلقات والأفواج وتنظيم المجموعات التربوية وتوزيع الطلاب.</li>
-                    <li>المتابعة اليومية للأوراد والتسجيل والترقيات المستمرة.</li>
-                    <li>الإدارة المالية، تقييد الاشتراكات، وضبط المصاريف لحظياً.</li>
-                    <li>أمن وحماية البيانات بتشفير الجلسات وإدارة الصلاحيات (JWT).</li>
-                </ul>
-
-                <h4>🛠️ التقنيات المستخدمة:</h4>
-                <p><span dir="ltr">HTML5, Tailwind CSS, JavaScript (Async/Fetch), Node.js, Express.js, Supabase (PostgreSQL)</span></p>
-
-                <div class="project-links" dir="ltr">
-                    <a href="https://github.com/ANES21/WEB-For-the-Quran-Memorization-Society" target="_blank" rel="noopener noreferrer" class="btn">View Project</a>
+                <div class="university-text">
+                    <p>جامعة ابن خلدون تيارت - Ibn Khaldoun University Tiaret</p>
                 </div>
-            </article>
-
-            <!-- Project 3: Bookanes App -->
-            <article class="project-card" lang="en" dir="ltr">
-                <h3>Bookanes App 📚</h3>
-                <p>An Android application serving as a personal digital library and versatile note-taking tool built with the Model-View-Adapter (MVA) pattern.</p>
-
-                <h4>💡 Key Features:</h4>
-                <ul>
-                    <li>Visual Catalog with 2-column grid layout using RecyclerView.</li>
-                    <li>Interactive Note-Taking with custom dialogs and instant deletion capabilities.</li>
-                    <li>Seamless Bottom Navigation across Library, Notes, and Profile sections.</li>
-                </ul>
-
-                <h4>🛠️ Tech Stack:</h4>
-                <p>Java Backend, Android SDK, XML Fundamentals, SQLite Database</p>
-
-                <div class="project-links">
-                    <a href="apk/app-debug.apk" download="BookanesApp.apk" class="btn btn-apk">📥 Download APK</a>
-                    <a href="https://github.com/ANES21/BOOK-ANES" target="_blank" rel="noopener noreferrer" class="btn btn-outline">GitHub Repository</a>
-                </div>
-            </article>
-
-        </div>
-    </section>
-
- 
+            </div>
+        </section>
+    </main>
 
 </body>
 </html>
